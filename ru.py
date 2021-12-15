@@ -1,3 +1,8 @@
+import os
+import sys
+import re
+import rucom
+
 ru_json = {"cls": rucom.Ru.cls, "file": __file__}
 ru_class = {"ru": ru_json}
 
