@@ -46,7 +46,7 @@ try:
 		while True:
 			a=input(">>")
 			yorumla(a)
-	elif sys.argv[1] == "-h" or "--help" or "help":
+	elif sys.argv[1] == "-h":
 		print("""
 Run <file>    Run file
 console       Ru console
